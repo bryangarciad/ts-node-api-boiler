@@ -1,0 +1,12 @@
+<h1><%= day.date %></h1>
+
+<div class="report_daily">
+    <div class="report_daily__glucose_chart">
+        <svg width="<%= reportDaily.glucoseChartSize.width %>" height="<%= reportDaily.glucoseChartSize.height %>"></svg>
+    </div>
+    <div class="report_daily__glucose_sub_chart">
+        <svg class="bolus_chart" width="1125" height="110"></svg>
+        <svg width="1125" height="26"></svg>
+        <svg width="1125" height="64"></svg>
+    </div>
+</div>
